@@ -4,6 +4,7 @@ import { ImageListItemBar, Typography, ImageList, ImageListItem, Container, Icon
 import { useTheme } from '@mui/material/styles'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import InfoIcon from '@mui/icons-material/Info'
+import Footer from './ui/surfaces/footer/footer';
 
 const itemData = [
   {
@@ -121,6 +122,7 @@ const matches = useMediaQuery(theme.breakpoints.down('sm'))
           </Container>
         </Box>
       </main>
+      <Footer/>
     </Box>
   );
 }
